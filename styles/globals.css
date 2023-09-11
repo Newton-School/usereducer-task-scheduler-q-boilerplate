@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* font-weight: 600; */
+  }
+  
+  .name {
+    margin-bottom: 3rem;
+  }
+  
+  body {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+  }
+  
+  .new-task {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .task-list-container {
+    display: grid;
+    /* grid-template-columns: 6fr; */
+    gap: 8px;
+  }
+  
+  .all-tasks {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  li.task {
+    align-items: baseline;
+  }
+  
+  .edit-btn {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: brown;
+    color: white;
+  }
+  
+  .add-btn {
+    background-color: rgb(0, 192, 0);
+    color: white;
+  }
+  
+  .update-btn {
+    background-color: rgb(235, 235, 0);
+    color: white;
+  }
+  
